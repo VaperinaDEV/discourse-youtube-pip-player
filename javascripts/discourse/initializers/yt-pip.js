@@ -35,7 +35,7 @@ export default apiInitializer("1.0", (api) => {
   function setIframeSrc(url) {
     const el = pipState.iframeEl || document.getElementById("discourse-pip-iframe");
     if (el) {
-      try { el.contentWindow.location.replace(url); return; } catch { /* nem töltött be */ }
+      try { el.contentWindow.location.replace(url); return; } catch { /* not loaded */ }
     }
     pipState.embedUrl = url;
   }
