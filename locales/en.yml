@@ -1,0 +1,12 @@
+en:
+  discourse_pip:
+    next_video: "Next video"
+    jump_to_post: "Jump to original post"
+    hide_panel: "Hide player"
+    toggle_player: "YouTube mini player"
+    close: "Close"
+    open_in_pip: "Open in mini player"
+    mini_player: "Mini player"
+    playing_in_pip: "Video is playing in mini player"
+    anonymous: "Anonymous"
+    unknown_title: "YouTube video"
